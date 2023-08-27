@@ -1,0 +1,112 @@
+.movie-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem 10rem;
+}
+.movie-card {
+    background-color: rgb(22, 26, 41);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+.img {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.text-center {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0 2rem;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    gap: 0.4rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+#search {
+    height: 20px;
+    border-radius: 10px;
+    background-color: rgb(30, 36, 52);
+    border: none;
+    color: #ffff;
+    padding-left: 0.4rem;
+}
+.review-section {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.review-container {
+    padding: 1rem;
+    background-color: rgb(22, 26, 41);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+.review-heading {
+    font-weight: normal;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(22, 26, 41);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.form button {
+    border-radius: 10px;
+    margin-top: 1rem;
+    height: 32px;
+    color:#ffff;
+    background-color: rgb(27, 73, 180);
+    border: none;
+}
+.form button:hover {
+    opacity: 0.8;
+}
+.review-descp {
+    font-size: 24px;
+    font-weight: 600;
+}
+.nav-tag {
+    color: #ffff;
+}
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.btn {
+    height: 32px;
+    border-radius: 10px;
+    border: none;
+    color: #ffff;
+}
+.update {
+    background-color: rgb(31, 100, 90);
+}
+.delete {
+    background-color: rgb(83, 28, 28);
+}
+.update-form {
+    display: grid;
+    grid-template-columns: 300px;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.err {
+    color: rgb(131, 40, 40);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
