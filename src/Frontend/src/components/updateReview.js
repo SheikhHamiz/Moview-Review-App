@@ -44,9 +44,9 @@ const UpdateReview = () => {
         <div className="update-form">
             <div className="err">{err}</div>
             <h3 className="text-center">Update review</h3>
-            <label for="user-name">User</label>
+            <label htmlFor="user-name">User</label>
             <input id="user-name" type="text" onChange={handleName} value={name} placeholder={currentReview.name} required/>
-            <label for="review">Review</label>
+            <label htmlFor="review">Review</label>
             <textarea id="review" onChange={handleReview} value={review} placeholder={currentReview.review} required/>
             <br/>
             <button  className="btn update" onClick={handleSubmit}>submit</button>
