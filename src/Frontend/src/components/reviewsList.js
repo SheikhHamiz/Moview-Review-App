@@ -68,9 +68,9 @@ const ReviewList = () => {
                     <div className="form">
                         <div className="err">{err}</div>
                         <h3>New review</h3>
-                        <label for="user-name">User</label>
+                        <label htmlFor="user-name">User</label>
                         <input id="user-name" type="text" onChange={handleName} value={name} required/>
-                        <label for="review">Review</label>
+                        <label htmlFor="review">Review</label>
                         <textarea id="review" onChange={handleReview} value={review} required/>
                         <button onClick={handleSubmit}>submit</button>
                     </div>
